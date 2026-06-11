@@ -21,6 +21,15 @@
 };
 
 / {
+    macros {
+        tow: tow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "TOW";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -47,7 +56,7 @@
 &tog_ls    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0            &kp F6     &kp F7     &kp F8                &kp F9                 &kp F10        &kp LG(PLUS)
 &kp EQUAL  &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp PERCENT       &kp F11    &kp F12    &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(MINUS)  &kp LC(LS(MINUS))
 &trans     &trans        &kp LALT                    &kp ENTER     &kp ENTER         &kp ENTER  &kp ENTER                        &trans                 &trans         &trans
-&kp LEFT   &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                  &kp HOME   &kp PG_UP             &kp ENTER              &kp PG_DN      &kp END
+&kp LEFT   &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                  &trans     &trans                &trans                 &trans         &trans
                                        &kp A                                                               &kp B
             >;
 
@@ -61,7 +70,7 @@
 &trans           &kp AT_SIGN    &kp HASH       &kp DOLLAR      &trans            &trans                    &kp LEFT_ARROW         &kp DOWN_ARROW     &kp UP_ARROW       &kp RIGHT_ARROW   &kp TILDE  &trans
 &kp CARET        &kp SEMICOLON  &kp LESS_THAN  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp GREATER_THAN  &kp COLON  &trans
 &trans           &kp ENTER      &kp ENTER                      &kp ENTER         &kp ENTER                 &kp ENTER              &kp ENTER                             &trans            &trans     &trans
-&kp LEFT         &kp UP         &kp SPACE      &kp DOWN        &kp RIGHT                                                          &kp HOME           &kp PG_UP          &kp ENTER         &kp PG_DN  &kp END
+&kp LEFT         &kp UP         &kp SPACE      &kp DOWN        &kp RIGHT                                                          &trans             &trans             &trans            &trans     &trans
                                                &kp A                                                                                                 &kp B
             >;
 
@@ -71,11 +80,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &mkp MB1  &mkp MB3   &mkp MB2   &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans  &trans               &trans     &trans      &trans  &trans               &trans     &trans     &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
+&trans    &trans  &trans               &trans     &trans      &trans  &trans              &trans    &trans  &trans
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &trans    &trans    &trans    &trans  &trans
                              &kp A                                              &kp B
             >;
 
