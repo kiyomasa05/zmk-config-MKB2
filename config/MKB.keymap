@@ -31,7 +31,7 @@
 &lt BT LEFT_CONTROL  &kp A         &kp S         &kp D           &kp F            &kp G            &kp H          &kp J               &kp K         &kp L      &kp SEMI        &lt MOUSE ENTER
 &kp LSHFT            &kp Z         &kp X         &kp C           &kp V            &kp B            &kp N          &kp M               &kp COMMA     &kp DOT    &kp UP          &kp FSLH
 &kp TAB              &kp LEFT_ALT  &kp LEFT_WIN                  &lt 1 LANG2      &lt 3 SPACE      &kp BACKSPACE  &lt NUM LANGUAGE_1                &kp LEFT   &kp DOWN        &kp RIGHT
-&mmv MOVE_LEFT       &msc SCRL_UP  &kp SPACE     &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                  &kp LEFT_ARROW      &kp UP_ARROW  &kp ENTER  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&msc SCRL_LEFT       &msc SCRL_UP  &kp SPACE     &msc SCRL_DOWN  &msc SCRL_RIGHT                                  &kp LEFT_ARROW      &kp UP_ARROW  &kp ENTER  &kp DOWN_ARROW  &kp RIGHT_ARROW
                                                  &kp A                                                                                &kp B
             >;
 
