@@ -27,12 +27,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp ESCAPE           &kp Q         &kp W         &kp E           &kp R            &kp T               &kp Y          &kp U               &kp I         &kp O      &kp P           &kp BACKSPACE
-&lt BT LEFT_CONTROL  &kp A         &kp S         &kp D           &kp F            &kp G               &kp H          &kp J               &kp K         &kp L      &kp SEMI        &lt MOUSE ENTER
-&kp LSHFT            &kp Z         &kp X         &kp C           &kp V            &kp B               &kp N          &kp M               &kp COMMA     &kp DOT    &kp UP          &kp FSLH
-&kp TAB              &kp LEFT_ALT  &kp LEFT_WIN                  &lt NUM LANG2    &lt FUNC SPACE      &kp BACKSPACE  &lt NUM LANGUAGE_1                &kp LEFT   &kp DOWN        &kp RIGHT
-&mmv MOVE_LEFT       &msc SCRL_UP  &kp SPACE     &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                     &kp LEFT_ARROW      &kp UP_ARROW  &kp ENTER  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                                                 &kp A                                                                                   &kp B
+&kp ESCAPE           &kp Q         &kp W         &kp E           &kp R            &kp T            &kp Y          &kp U               &kp I         &kp O      &kp P           &kp BACKSPACE
+&lt BT LEFT_CONTROL  &kp A         &kp S         &kp D           &kp F            &kp G            &kp H          &kp J               &kp K         &kp L      &kp SEMI        &lt MOUSE ENTER
+&kp LSHFT            &kp Z         &kp X         &kp C           &kp V            &kp B            &kp N          &kp M               &kp COMMA     &kp DOT    &kp UP          &kp FSLH
+&kp TAB              &kp LEFT_ALT  &kp LEFT_WIN                  &lt 1 LANG2      &lt 3 SPACE      &kp BACKSPACE  &lt NUM LANGUAGE_1                &kp LEFT   &kp DOWN        &kp RIGHT
+&mmv MOVE_LEFT       &msc SCRL_UP  &kp SPACE     &mmv MOVE_DOWN  &mmv MOVE_RIGHT                                  &kp LEFT_ARROW      &kp UP_ARROW  &kp ENTER  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                                                 &kp A                                                                                &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -41,12 +41,12 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp GRAVE  &kp PG_UP  &kp UP     &kp PG_DN  &kp HOME   &trans         &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &trans
-&tog_ls    &kp LEFT   &kp DOWN   &kp RIGHT  &kp END    &trans         &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &trans
-&trans     &kp BKSP   &kp DEL    &trans     &trans     &trans         &kp F11    &kp F12    &trans     &trans     &trans     &trans
-&trans     &trans     &kp LALT              &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
-&kp LEFT   &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                 &kp A                                                      &kp B
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp F1     &kp F2     &kp F3                &kp F4                 &kp F5         &kp LG(MINUS)
+&tog_ls    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0            &kp F6     &kp F7     &kp F8                &kp F9                 &kp F10        &kp LG(PLUS)
+&kp EQUAL  &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp PERCENT       &kp F11    &kp F12    &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(MINUS)  &kp LC(LS(MINUS))
+&trans     &trans        &kp LALT                    &kp ENTER     &kp ENTER         &kp ENTER  &kp ENTER                        &trans                 &trans         &trans
+&kp LEFT   &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                  &kp HOME   &kp PG_UP             &kp ENTER              &kp PG_DN      &kp END
+                                       &kp A                                                               &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -55,12 +55,12 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp CAPS         &kp N1         &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
-&trans           &trans         &trans     &trans    &trans     &trans         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &trans
-&mt LSHFT SPACE  &kp BACKSPACE  &kp DEL    &trans    &trans     &trans         &trans     &kp FSLH   &kp SEMI   &kp SQT    &trans     &trans
-&trans           &kp ENTER      &kp ENTER            &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
-&kp LEFT         &kp UP         &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                           &kp A                                                     &kp B
+&kp EXCLAMATION  &kp QUESTION   &kp AMPERSAND  &kp PIPE        &kp BACKSLASH     &kp SLASH                 &kp LS(GRAVE)          &kp SQT            &kp DOUBLE_QUOTES  &kp UNDERSCORE    &kp MINUS  &trans
+&trans           &kp AT_SIGN    &kp HASH       &kp DOLLAR      &trans            &trans                    &kp LEFT_ARROW         &kp DOWN_ARROW     &kp UP_ARROW       &kp RIGHT_ARROW   &kp TILDE  &trans
+&kp CARET        &kp SEMICOLON  &kp LESS_THAN  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp GREATER_THAN  &kp COLON  &trans
+&trans           &kp ENTER      &kp ENTER                      &kp ENTER         &kp ENTER                 &kp ENTER              &kp ENTER                             &trans            &trans     &trans
+&kp LEFT         &kp UP         &kp SPACE      &kp DOWN        &kp RIGHT                                                          &kp HOME           &kp PG_UP          &kp ENTER         &kp PG_DN  &kp END
+                                               &kp A                                                                                                 &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
