@@ -58,6 +58,9 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
+
+         /* スクロールモードの設定 */
+        input-processors = <&zip_scroll_mapper>;
     };
 
 };
