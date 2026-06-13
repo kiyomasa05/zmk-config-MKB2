@@ -60,6 +60,7 @@
         device = <&trackball_split>;
 
          /* スクロールモードの設定 */
+        layers = <3>;
         input-processors = <&zip_scroll_mapper>;
     };
 
