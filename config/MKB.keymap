@@ -96,12 +96,12 @@
             bindings = <
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
-&trans    &trans  &trans               &trans     &trans      &trans  &trans              &trans    &trans  &trans
+// ↓ ここに &mmv_scaler 2 を配置 (押している間だけ速度が1/2になります)
+&trans    &trans    &trans     &trans    &trans     &trans      &trans  &mmv_scaler 2 &trans &trans &trans  &trans
+&trans    &trans    &trans               &trans     &trans      &trans  &trans              &trans    &trans  &trans
 &kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &trans    &trans    &trans    &trans  &trans
                              &kp A                                              &kp B
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
