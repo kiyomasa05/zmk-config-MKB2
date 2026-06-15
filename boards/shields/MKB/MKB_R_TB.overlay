@@ -58,11 +58,6 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
-
-        /* * zip_temp_layer_state が環境で認識されない場合、
-         * zip_scaler を使用してレイヤーごとの感度制御を行います。
-         */
-        input-processors = <&zip_scaler 2 1>, <&zip_temp_layer_state 3 1 0 0>;
     };
 
 };
