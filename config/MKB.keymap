@@ -52,11 +52,11 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp F2     &kp F6     &kp F7                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
-&kp GRAVE   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0            &kp F8     &kp F9     &kp F10               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
-&kp EQUAL   &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp PERCENT       &kp F11    &kp F12    &kp LG(LEFT_BRACKET)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
-&trans      &trans        &kp LALT                    &kp ENTER     &kp ENTER         &kp ENTER  &kp ENTER                        &kp KP_NUMBER_0  &kp EQUAL        &trans
-&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                  &trans     &trans                &trans           &trans           &trans
+&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp F2     &kp F6     &kp F7        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&kp GRAVE   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0            &kp F8     &kp F9     &kp F10       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&kp EQUAL   &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp PERCENT       &kp F11    &kp F12    &kp KP_EQUAL  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&trans      &trans        &kp LALT                    &kp ENTER     &kp ENTER         &kp ENTER  &kp ENTER                &kp KP_NUMBER_0  &kp KP_DOT       &kp COLON
+&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                  &trans     &trans        &trans           &trans           &trans
                                         &kp A                                                               &kp B
             >;
 
