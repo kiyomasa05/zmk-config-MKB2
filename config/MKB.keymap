@@ -36,8 +36,8 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp TAB         &kp Q         &kp W         &kp E           &kp R            &kp T            &kp Y          &kp U               &kp I         &kp O     &kp P           &mo 5
-&kp LCTRL       &kp A         &kp S         &kp D           &kp F            &kp G            &kp H          &kp J               &kp K         &kp L     &kp MINUS       &kp ENTER
+&kp TAB         &kp Q         &kp W         &kp E           &kp R            &kp T            &kp Y          &kp U               &kp I         &kp O     &kp P           &kp DELETE
+&mo 5           &kp A         &kp S         &kp D           &kp F            &kp G            &kp H          &kp J               &kp K         &kp L     &kp MINUS       &kp ENTER
 &kp LSHFT       &kp Z         &kp X         &kp C           &kp V            &kp B            &kp N          &kp M               &kp COMMA     &kp DOT   &kp UP          &kp FSLH
 &kp LCTRL       &kp LEFT_ALT  &kp LEFT_WIN                  &lt 1 LANG2      &lt 3 SPACE      &kp BACKSPACE  &lt NUM LANGUAGE_1                &kp LEFT  &kp DOWN        &kp RIGHT
 &kp LEFT_ARROW  &kp UP_ARROW  &kp SPACE     &kp DOWN_ARROW  &kp RIGHT_ARROW                                  &kp LEFT_ARROW      &kp UP_ARROW  &none     &kp DOWN_ARROW  &kp RIGHT_ARROW
@@ -52,11 +52,11 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp F1     &kp F2     &kp F3                &kp F4                 &kp F5         &kp LG(MINUS)
-&kp GRAVE   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0            &kp F6     &kp F7     &kp F8                &kp F9                 &kp F10        &kp LG(PLUS)
-&kp EQUAL   &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp PERCENT       &kp F11    &kp F12    &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(MINUS)  &kp LC(LS(MINUS))
-&trans      &trans        &kp LALT                    &kp ENTER     &kp ENTER         &kp ENTER  &kp ENTER                        &trans                 &trans         &trans
-&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                  &trans     &trans                &trans                 &trans         &trans
+&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp F2     &kp F6     &kp F7                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&kp GRAVE   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0            &kp F8     &kp F9     &kp F10               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&kp EQUAL   &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp PERCENT       &kp F11    &kp F12    &kp LG(LEFT_BRACKET)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&trans      &trans        &kp LALT                    &kp ENTER     &kp ENTER         &kp ENTER  &kp ENTER                        &kp KP_NUMBER_0  &kp EQUAL        &trans
+&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                  &trans     &trans                &trans           &trans           &trans
                                         &kp A                                                               &kp B
             >;
 
